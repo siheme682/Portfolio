@@ -1,0 +1,311 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sihème G. | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f8fafc;
+            color: #1e293b;
+            line-height: 1.7;
+        }
+
+        header {
+            background: #111827;
+            padding: 20px 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            color: #60a5fa;
+            font-weight: bold;
+            font-size: 21px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            color: #60a5fa;
+        }
+
+        .hero {
+            background: #111827;
+            color: white;
+            padding: 110px 10%;
+        }
+
+        .intro {
+            color: #60a5fa;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        .hero h1 {
+            font-size: clamp(55px, 9vw, 85px);
+            font-weight: 900;
+            margin: 15px 0;
+        }
+
+        .hero h2 {
+            color: #cbd5e1;
+            font-size: 23px;
+            font-weight: normal;
+        }
+
+        .hero p {
+            max-width: 650px;
+            margin-top: 20px;
+            color: #cbd5e1;
+        }
+
+        .stage {
+            display: inline-block;
+            margin-top: 25px;
+            background: #1e3a5f;
+            color: #93c5fd;
+            padding: 10px 18px;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 75px 10%;
+        }
+
+        section h2 {
+            font-size: 30px;
+            margin-bottom: 25px;
+            color: #1e3a5f;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #e2e8f0;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.03);
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+            color: #1e3a5f;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .skills span {
+            background: #e0edff;
+            color: #1e40af;
+            padding: 10px 22px;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        .contact a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+
+        footer {
+            background: #111827;
+            color: #cbd5e1;
+            text-align: center;
+            padding: 25px;
+        }
+
+        @media(max-width: 650px) {
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 0 6px;
+            }
+
+            .hero {
+                padding: 75px 8%;
+            }
+
+            section {
+                padding: 55px 8%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">SIHÈME G.</div>
+
+        <nav>
+            <a href="#about">À propos</a>
+            <a href="#skills">Compétences</a>
+            <a href="#projects">Projets</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="hero">
+
+            <p class="intro">BIENVENUE SUR MON PORTFOLIO</p>
+
+            <h1>SIHÈME G.</h1>
+
+            <h2>Étudiante en première année de DSP DevOps</h2>
+            <h2>Conservatoire national des arts et métiers (CNAM)</h2>
+
+            <p>
+                Motivée, curieuse et désireuse de progresser,
+                je développe mes compétences dans le domaine
+                du développement et de l'exploitation des parcs informatiques (Dev'ops)
+                Je souhaite aujourd'hui mettre en pratique
+                mes connaissances dans un environnement professionnel.
+            </p>
+
+            <div class="stage">
+                Recherche de stage au cours de la période du 1er mars au 23 avril 2027
+            </div>
+
+        </div>
+
+        <section id="about">
+
+            <h2>À propos de moi</h2>
+
+            <div class="card">
+                <p>
+                    Actuellement étudiante en première année de
+                    Diplôme de Spécialisation Professionnelle (DSP)
+                    au Conservatoire national des arts et métiers (CNAM),
+                    je m'intéresse au développement informatique
+                    et aux technologies numériques.
+
+                    Ma formation me permet d'acquérir des compétences 
+                     techniques à travers des cours,
+                      des exercices et des travaux pratiques.
+
+                    Sérieuse, impliquée et motivée, je souhaite
+                    continuer à apprendre et découvrir le fonctionnement
+                    d'une équipe informatique en entreprise.
+                </p>
+            </div>
+
+        </section>
+
+        <section id="skills">
+
+            <h2>Mes compétences</h2>
+
+            <div class="skills">
+                <span>HTML</span>
+                <span>CSS</span>
+                 <span>langage C </span>
+               <span> Linux</span>
+               <span>Github</span>
+            </div>
+
+            <p style="margin-top:20px;">
+                Compétences en cours de développement dans le cadre
+                de ma formation DSP DevOps.
+            </p>
+
+        </section>
+
+        <section id="projects">
+
+            <h2>Mes projets et travaux pratiques</h2>
+
+            <div class="card">
+                <h3>Travaux pratiques en HTML</h3>
+                <p>
+                    Exercices de structuration de pages web et
+                    découverte des principales balises HTML.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Travaux pratiques en CSS</h3>
+                <p>
+                    Initiation à la mise en forme des pages web,
+                    aux couleurs, aux polices et à la mise en page.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Découverte de GitHub</h3>
+                <p>
+                    Découverte de la gestion et de la présentation
+                    de projets à travers une plateforme de partage
+                    de code.
+                </p>
+            </div>
+
+        </section>
+
+        <section id="contact" class="contact">
+
+            <h2>Me contacter</h2>
+
+            <div class="card">
+
+                <p>
+                    Je suis à la recherche d'un stage du
+                    1er mars au 23 avril 2027.
+                </p>
+
+                <p style="margin-top:15px;">
+                    Email :
+                    <a href="mailto:TON-EMAIL"> siheme.gadari@outlook.fr </a>
+                </p>
+
+                <p>
+                    GitHub :
+                    <a href="https://github.com/siheme682">
+                        Mon profil GitHub
+                    </a>
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        © 2027 - Sihème GADARI | Portfolio
+    </footer>
+
+</body>
+</html>
