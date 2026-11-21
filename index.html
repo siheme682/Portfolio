@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -6,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Sihème G. | Portfolio</title>
+    <title>Sihème GADARI | Portfolio</title>
 
     <style>
         * {
@@ -107,12 +106,27 @@
             border-radius: 10px;
             margin-bottom: 20px;
             border: 1px solid #e2e8f0;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.03);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.03);
         }
 
         .card h3 {
             margin-bottom: 10px;
             color: #1e3a5f;
+        }
+
+        .project-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 14px;
+            margin-top: 16px;
+        }
+
+        .project-gallery img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
+            border: 1px solid #e2e8f0;
         }
 
         .skills {
@@ -165,7 +179,7 @@
 <body>
 
     <header>
-        <div class="logo">SIHÈME G.</div>
+        <div class="logo">SIHÈME GADARI</div>
 
         <nav>
             <a href="#about">À propos</a>
@@ -183,11 +197,11 @@
 
             <h1>SIHÈME G.</h1>
 
-            <h2>Étudiante en première année de DSP DevOps</h2>
+            <h2>Étudiante en première année de Développement et Exploitation des parcs informatiques (DevOps)</h2>
             <h2>Conservatoire national des arts et métiers (CNAM)</h2>
 
             <p>
-                Motivée, curieuse et désireuse de progresser,
+                Motivée, ambitieuse et désireuse de progresser,
                 je développe mes compétences dans le domaine
                 du développement et de l'exploitation des parcs informatiques (Dev'ops)
                 Je souhaite aujourd'hui mettre en pratique
@@ -212,9 +226,9 @@
                     je m'intéresse au développement informatique
                     et aux technologies numériques.
 
-                    Ma formation me permet d'acquérir des compétences 
-                     techniques à travers des cours,
-                      des exercices et des travaux pratiques.
+                    Ma formation me permet d'acquérir des compétences
+                    techniques à travers des cours,
+                    des exercices et des travaux pratiques.
 
                     Sérieuse, impliquée et motivée, je souhaite
                     continuer à apprendre et découvrir le fonctionnement
@@ -231,9 +245,9 @@
             <div class="skills">
                 <span>HTML</span>
                 <span>CSS</span>
-                 <span>langage C </span>
-               <span> Linux</span>
-               <span>Github</span>
+                <span>langage C</span>
+                <span>Linux</span>
+                <span>Github</span>
             </div>
 
             <p style="margin-top:20px;">
@@ -246,6 +260,18 @@
         <section id="projects">
 
             <h2>Mes projets et travaux pratiques</h2>
+
+            <div class="card">
+                <h3>M — Maison de Bijoux</h3>
+                <p>
+                    Création d'un site vitrine pour une maison de joaillerie : mise en page responsive,
+                    grille des collections, typographie soignée et section newsletter.
+                </p>
+                <div class="project-gallery">
+                    <img src="imagesite1.jpg" alt="Photo d'écran du site M Maison de Bijoux - vue 1">
+                    <img src="imagesite2.jpg" alt="Photo d'écran du site M Maison de Bijoux - vue 2">
+                </div>
+            </div>
 
             <div class="card">
                 <h3>Travaux pratiques en HTML</h3>
@@ -287,7 +313,7 @@
 
                 <p style="margin-top:15px;">
                     Email :
-                    <a href="mailto:TON-EMAIL"> siheme.gadari@outlook.fr </a>
+                    <a href="mailto:siheme.gadari@outlook.fr">siheme.gadari@outlook.fr</a>
                 </p>
 
                 <p>
@@ -308,4 +334,5 @@
     </footer>
 
 </body>
+
 </html>
